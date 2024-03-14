@@ -13,8 +13,8 @@ const SignIn = () => {
           <form className="flex flex-col justify-center items-center mt-8 gap-4">
             <input
               type="text"
-              name="username"
-              placeholder="Username"
+              name="email"
+              placeholder="email"
               className="border-2 border-blue-300 p-4 m-2 rounded-lg w-80"
             />
             <input
