@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import OAuth from "../component/OAuth";
 
 const SignIn = () => {
   return (
@@ -13,8 +12,8 @@ const SignIn = () => {
           <form className="flex flex-col justify-center items-center mt-8 gap-4">
             <input
               type="text"
-              name="email"
-              placeholder="email"
+              name="username"
+              placeholder="username"
               className="border-2 border-blue-300 p-4 m-2 rounded-lg w-80"
             />
             <input
@@ -26,7 +25,6 @@ const SignIn = () => {
               <button className="bg-blue-200 border-2 border-blue-300 p-3 w-full rounded-lg text-slate-600 uppercase">
                 Sign In
               </button>
-          <OAuth/>
           </form>
             <p className="mt-6 flex items-center justify-start gap-2">
             Don't have an account?{" "} 
