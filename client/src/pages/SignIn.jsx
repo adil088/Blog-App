@@ -28,7 +28,7 @@ const SignIn = () => {
               </button>
           <OAuth/>
           </form>
-            <p className="mt-6 flex items-center justify-start">
+            <p className="mt-6 flex items-center justify-start gap-2">
             Don't have an account?{" "} 
             <Link to="/sign-up">
               <span className="hover:underline text-blue-600">Sign Up</span>
