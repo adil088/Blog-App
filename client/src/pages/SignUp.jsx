@@ -78,7 +78,7 @@ const SignUp = () => {
             className="border-2 border-blue-300 p-4 m-2 rounded-lg w-80"
             onChange={handleChange}
           />
-            <button disabled={loading} className="bg-blue-200 border-2 border-blue-300 p-3 w-full rounded-lg text-slate-600 uppercase">
+            <button disabled={loading} className="bg-blue-200 border-2 border-blue-300 p-3 w-full rounded-lg text-slate-600 uppercase hover:opacity-80">
               {loading ? 'Loading...' : 'Sign Up'} 
             </button>
         </form>
