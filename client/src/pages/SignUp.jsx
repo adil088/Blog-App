@@ -88,7 +88,7 @@ const SignUp = () => {
             <span className="hover:underline text-blue-600">Sign In</span>
           </Link>
         </p>
-          {error && <p className="text-red-500">User already exists</p>}
+          {error && <p className="text-red-600">User already exists</p>}
 
 
       </div>
